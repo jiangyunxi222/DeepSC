@@ -18,7 +18,7 @@ from models.transceiver import DeepSC
 from models.mutual_info import Mine
 from torch.utils.data import DataLoader
 from tqdm import tqdm
-a = 1
+
 parser = argparse.ArgumentParser()
 #parser.add_argument('--data-dir', default='data/train_data.pkl', type=str)
 parser.add_argument('--vocab-file', default='europarl/vocab.json', type=str)
